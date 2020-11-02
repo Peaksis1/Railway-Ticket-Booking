@@ -1,0 +1,54 @@
+<html>
+<head>
+<script>
+function checkpass()
+{
+var a=document.getElementById("T7").value;
+var b=document.getElementById("T8").value;
+if(a!=b)
+{
+alert("Passwords do not match");
+document.getElementById("T7").focus;
+return false;
+}
+
+}
+</script>
+<style>
+@import url("css/cssregistration.css");
+</style>
+</head>
+<body >
+<form METHOD='post' action="register.jsp" onsubmit="return checkpass()">
+<div>
+<LABEL FOR="T1">NAME</LABEL>
+<INPUT TYPE='TEXT'  name="T1" ID="T1" class='ipclass' REQUIRED placeholder="Enter your name">
+<BR><BR><BR>
+<LABEL FOR="T2">USERID</LABEL>
+<INPUT TYPE='TEXT'  name="T2" ID="T2" class='ipclass' REQUIRED placeholder="Must be UNIQUE">
+<BR><BR><BR>
+<LABEL FOR="T3">AGE</LABEL>
+<INPUT TYPE='NUMBER'  name="T3"ID="T3" class='ipclass' REQUIRED min=13 max=99 >
+<BR><BR><BR>
+<LABEL FOR="T4">CONTACT NO.</LABEL>
+<INPUT TYPE='NUMBER' ID="T4" name="T4" class='ipclass' REQUIRED >
+<br><br><br>
+<LABEL FOR="T5">EMAIL:</LABEL>
+<INPUT TYPE='EMAIL' class='ipclass'  name="T5"ID="T5"  REQUIRED>
+<BR><BR><BR>
+<LABEL FOR="T6">GENDER:</LABEL>
+<INPUT TYPE='RADIO' value='M'NAME="T6" ID="T6" style="" required>MALE
+<INPUT TYPE='RADIO' value='F'NAME="T6" ID="T6" style="" >FEMALE
+<BR><BR><BR>
+<LABEL FOR="T7">PASSWORD</LABEL>
+<INPUT TYPE='password'  ID="T7"name="T7" class='ipclass' REQUIRED>
+<BR><BR><BR>
+<LABEL FOR="T8">Renter PASSWORD</LABEL>
+<INPUT TYPE='password'  ID="T8" name="T8" class='ipclass' REQUIRED>
+<BR><BR><br>
+<br><br><bR>
+<input type='submit' value="REGISTER" class="mybutton" >
+</div>
+</form>
+</body>
+</html>

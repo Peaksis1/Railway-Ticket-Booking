@@ -1,0 +1,33 @@
+body{
+font-family:Lucida Console;
+background-image:url("../pics/track.png");
+background-repeat:no-repeat;
+background-size:cover;
+}
+div{
+	background-color: white;
+	opacity:.7;
+	margin-left:10%;
+	margin-top:10%;
+	margin-right:10%;
+}
+.mybutton{
+    background-color: Transparent;
+    cursor:pointer;
+	display: block;
+	color:black;
+	font-family:Lucida Console;
+	font-size:20px;
+	border: 2px solid blue;
+	border-radius:20px;
+	padding:30px 80px;
+
+	margin-left:32.5%;
+}
+.ipclass{
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 6px;
+    width: 250px;
+}
+.mybutton:hover {background-color:black;color:white;transition: 0.5s;}

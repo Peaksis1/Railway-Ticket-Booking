@@ -1,0 +1,58 @@
+.div1{
+visibility:hidden;
+}
+.divmain{
+	width:80%;px;
+	 position:absolute;
+	left:10%;
+	top:10%;
+  background-color:white;
+  opacity:.70;
+}
+body{
+font-family:Lucida Console;
+background-image:url("../pics/track.png");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.ipc{
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 6px;
+    width: 250px;
+}
+.mybutton{
+    background-color: Transparent;
+    cursor:pointer;
+	display: block;
+	align:center;
+	color:black;
+	font-family:Lucida Console;
+	font-size:20px;
+	border: 2px solid green;
+	border-radius:20px;
+	padding:30px 80px;
+	margin-top:5%;
+	margin-left:41%;
+}
+table{
+width:30%;
+margin-left:33%;
+background-color:green;
+}
+.mybutton2{
+    background-color: Transparent;
+    cursor:pointer;
+	display: block;
+	align:center;
+	color:black;
+	font-family:Lucida Console;
+	font-size:20px;
+	border: 2px solid blue;
+	border-radius:20px;
+	padding:5;
+	margin-top:3%;
+	margin-left:42%;
+}
+.mybutton:hover {background-color:green;color:white;transition: 0.5s;}
+.mybutton2:hover {background-color:black;color:white;transition: 0.5s;}

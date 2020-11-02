@@ -1,0 +1,66 @@
+body{
+    background-image:url("pics/track.png");
+background-size:cover;
+}
+input{height:42px;font-size:24px;margin-left:30%;margin-top:10%;}
+
+label{font-size:42px;font-family:cursive}
+.div1{
+    height:70%;
+	width:20%;
+	 position: absolute;
+	
+	top:20%;
+  background-color:aqua;
+  opacity:.70;
+}
+select{height:42px;font-size:24px;margin-left:30%;margin-top:10%}
+.butt{ background-color: Transparent;
+    cursor:pointer;
+	
+	padding:25px 80px 50px;
+	text-align: center;
+    
+	color:black;
+	font-family:Lucida Console;
+	font-size:30px;
+	border: 2px solid black;
+	border-radius:20px;
+	
+	margin-top:49%;
+    margin-left:32.5%;}
+	.butt:hover {background-color:black;color:white;transition: 0.5s;}
+	.out{
+		height:100%;
+		width: 60%;
+		position: absolute;
+		left:30%;
+		background-color:white;
+		opacity: .80;
+		overflow-y: auto;
+	}
+	.trains{
+		font-size:24px;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		width:35px;
+		border-collapse: collapse;
+		
+		
+		
+		
+
+	}
+	th{background-color: #4CAF50;
+		color: white;}
+	th,td{border-bottom: 2px solid black;
+	padding:15px;
+	text-align:center;
+	font-weight: bold;
+	
+}
+
+tr:nth-child(even){background-color:rgb(145, 233, 255)}
+tr:hover{
+	background-color:rgb(39, 240, 247);;
+	cursor:pointer;
+}

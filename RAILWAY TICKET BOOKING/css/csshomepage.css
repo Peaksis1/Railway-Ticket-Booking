@@ -1,0 +1,68 @@
+a{	
+display:block;	
+}
+body{
+font-family:Lucida Console;
+background-image:url("../pics/track.png");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.mybutton2{
+    background-color:lightgreen;
+    cursor:pointer;
+	font-family:Lucida Console;
+	font-size:20px;
+	border-radius:100px;
+	padding:30px 60px;
+	position:relative;
+	left:40%;
+
+
+}
+.mybutton{
+    background-color: Transparent;
+    cursor:pointer;
+	display: block;
+	align:center;
+	color:black;
+	font-family:Lucida Console;
+	font-size:20px;
+	border: 2px solid blue;
+	border-radius:20px;
+	padding:30px 80px;
+	margin-top:49%;
+	margin-left:32.3%;
+}
+.div{
+	height:70%;
+	width:50%;px;
+	 position:absolute;
+	left:43.3%;
+	top:25%;
+  background-color:white;
+  opacity:.70;
+}
+.div2{
+color:yellow;
+	margin-right:35%;
+height:91%;
+width:450px;
+background-color:black;
+  opacity:.6;
+  position:absolute;
+left:0%;
+}
+.innerdiv{
+font-size:20px;
+position:absolute;
+top:10%;
+left:35%;
+}
+.ipc{
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 6px;
+    width: 250px;
+}
+.mybutton2:hover {opacity: 0.75;transition: 0.3s;}
+.mybutton:hover {background-color:black;color:white;transition: 0.5s;}

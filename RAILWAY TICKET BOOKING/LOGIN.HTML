@@ -1,0 +1,41 @@
+
+
+<html>
+<head>
+<style>
+@import url("css/csshomepage.css");
+</style>
+<script>
+var a=document.getElementById("userid").value;
+document.write(a);
+</script>
+</head>
+<body>
+<form method='post' action='login.jsp'>
+<center>
+<h1 style="color:white;width:200px;">HOME PAGE<h1></center>
+<div class="div">
+<div class="innerdiv">
+USER ID:<BR><BR>
+<input class='ipc' type='text' name='userid'id='userid' placeholder="ENTER USER ID" required>
+<BR><BR>
+PASSWORD:<BR><BR>
+<input class='ipc' type='password'name='pass' id='pass'placeholder="ENTER PASSWORD" required><BR><BR>
+<br><br><br>
+</div>
+<ul><a href="REGISTRATION.HTML">REGISTER</a><a href="forgotpass1.jsp">FORGOT PASSWORD?</a>
+<input type='submit' value=' LOGIN' id='ub' class="mybutton">
+</div>
+<div class="div2"><marquee direction="up">
+<center><h2>ABOUT US<BR></h2>PEAKS IS THE CREATOR</center></marquee>
+</div>
+&nbsp;&nbsp;&nbsp;
+<input type='button' value='CHECK TRAINS' class="mybutton2" onclick="window.location='sordest.jsp'">
+<input type='button' value='TRAIN BY PNR' class="mybutton2" onclick="window.location='sordest.jsp'">
+<input type='button' value='ABOUT US' class="mybutton2"><BR><BR><BR><BR>
+<!--<BR><BR>
+<input type='button' value='ADMIN LOGIN' id='ab'class="mybutton">-->
+
+</form>
+</body>
+</html>
